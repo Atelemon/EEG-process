@@ -1,7 +1,7 @@
 # EEG-process
 clear;clc;
 % addpath(genpath('H:\toolbox\eeglab2023.1'));
-filepath = 'H:\huangxiaoyang\huangxiaoyang\reject\reject(donation)';
+filepath = 'H:';
 groupfile = dir(fullfile(filepath,'*.set'));
 filename = {groupfile.name};
 cond = {'S 11','S 12','S 21','S 22'};
